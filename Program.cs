@@ -9,12 +9,25 @@ namespace Challenge1
         {
             List<int> diceRolls = new List<int>();
             bool keepRolling = true;
+            int numSides = 0;
+            int numDice = 0;
+
+            Console.WriteLine("----Dice Roll Program----");
+
+            Console.Write("Sides on dice: ");
+            numSides = int.Parse(Console.ReadLine());
+
+            Console.Write("Number of dice: ");
+            numDice = int.Parse(Console.ReadLine());
 
             while (keepRolling)
             {
-                int currentRoll = RollDice(6);
-                diceRolls.Add(currentRoll);
-                Console.WriteLine("Result: {0}", currentRoll);
+                foreach (int roll in RollDice(numSides, numDice))
+                {
+                    diceRolls.Add(roll);
+
+                }
+                Console.WriteLine();
                 Console.Write("Type \'y\' to roll again or any other key to stop: ");
 
                 string input = Console.ReadLine();
@@ -30,11 +43,27 @@ namespace Challenge1
             int limit = int.Parse(Console.ReadLine());
             DisplayRollInfo(diceRolls, limit);
         }
-        public static int RollDice(int sides)
+        public static List<int> RollDice(int numSides, int numRolls)
         {
-            Console.WriteLine("Rolling {0} sided dice", sides);
-            Random dice = new Random();
-            return dice.Next(1, sides + 1);
+            List<int> rolls = new List<int>();
+
+            Console.WriteLine("Rolling {0} sided dice {1} time(s)", numSides, numRolls);
+            Console.Write("Rolls: ");
+
+            for (int i = 0; i < numRolls; i++)
+            {   
+                Random dice = new Random();
+                int currentRoll = dice.Next(1, numSides + 1);
+                rolls.Add(currentRoll);
+
+                Console.Write(currentRoll);
+
+                if (i < numRolls - 1)
+                {
+                    Console.Write(", ");
+                }
+            }
+            return rolls;
         }
         public static void DisplayRollInfo(List<int> rolls, int limit)
         {
