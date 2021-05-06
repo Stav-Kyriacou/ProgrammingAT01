@@ -1,0 +1,16 @@
+C:\Users\stavr\SwinUni\Programming\Challenge1\bin\Debug\net5.0\Challenge1.exe
+C:\Users\stavr\SwinUni\Programming\Challenge1\bin\Debug\net5.0\Challenge1.deps.json
+C:\Users\stavr\SwinUni\Programming\Challenge1\bin\Debug\net5.0\Challenge1.runtimeconfig.json
+C:\Users\stavr\SwinUni\Programming\Challenge1\bin\Debug\net5.0\Challenge1.runtimeconfig.dev.json
+C:\Users\stavr\SwinUni\Programming\Challenge1\bin\Debug\net5.0\Challenge1.dll
+C:\Users\stavr\SwinUni\Programming\Challenge1\bin\Debug\net5.0\ref\Challenge1.dll
+C:\Users\stavr\SwinUni\Programming\Challenge1\bin\Debug\net5.0\Challenge1.pdb
+C:\Users\stavr\SwinUni\Programming\Challenge1\obj\Debug\net5.0\Challenge1.csprojAssemblyReference.cache
+C:\Users\stavr\SwinUni\Programming\Challenge1\obj\Debug\net5.0\Challenge1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stavr\SwinUni\Programming\Challenge1\obj\Debug\net5.0\Challenge1.AssemblyInfoInputs.cache
+C:\Users\stavr\SwinUni\Programming\Challenge1\obj\Debug\net5.0\Challenge1.AssemblyInfo.cs
+C:\Users\stavr\SwinUni\Programming\Challenge1\obj\Debug\net5.0\Challenge1.csproj.CoreCompileInputs.cache
+C:\Users\stavr\SwinUni\Programming\Challenge1\obj\Debug\net5.0\Challenge1.dll
+C:\Users\stavr\SwinUni\Programming\Challenge1\obj\Debug\net5.0\ref\Challenge1.dll
+C:\Users\stavr\SwinUni\Programming\Challenge1\obj\Debug\net5.0\Challenge1.pdb
+C:\Users\stavr\SwinUni\Programming\Challenge1\obj\Debug\net5.0\Challenge1.genruntimeconfig.cache
